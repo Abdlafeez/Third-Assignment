@@ -1,0 +1,316 @@
+
+*{
+@font-face {
+    font-family: 'Lato';
+    src: url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+}
+}
+
+/*---------MIN 600PX------------*/
+@media only screen and (min-width:600px)
+{
+
+    body{
+        
+        padding:80px 140px 80px 140px; 
+        background-color: #F7FDFC;
+    }
+    a {
+        text-decoration: underline;
+        color:#2EC4B6
+    }
+    a:hover {
+        font-weight:600
+    }
+
+/*------This is main container-------*/
+.maincon {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+    gap: 120px;
+    width: 100%;
+}
+
+/*------This is the end of main container-------*/
+
+/*------This is individual section-------*/
+.individual{
+    
+    flex:1;
+    font-family: 'Sofia Pro' ; 
+    font-size: 16px; 
+    line-height: 25px;
+    
+}
+.individual h1 {
+    font-size: 40px;}
+
+.individual p{ color:#737373;}
+
+.individual img{
+    width:77.33px; height: 80px;
+}
+
+/*------This is end of individual section-------*/
+
+
+/*------This is input field-------*/
+.inputed {
+    flex:1;
+    
+   
+    
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
+    padding:40px;
+    height: auto;
+    font-family: 'Sofia Pro' ; font-size: 14px;
+
+}
+
+
+
+      
+.inputfield{
+    padding: 15px; height: 18px; width: 100%; 
+    border:1px solid #F0F0F0;
+    border-radius: 5px;
+    font-weight: 300;
+    
+
+}
+
+label{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px; font-weight: 600;
+}
+
+
+
+
+.inputfield::placeholder{
+    color: #737373;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.vertical{
+display: flex;
+flex:1;
+flex-direction: column;
+align-items: center;
+
+}
+
+
+
+.activeinput{
+
+width: 100%;
+height: 18px;
+padding: 15px;
+border:1px solid #2EC4B6;
+box-shadow: 0px 0px 0px 1px rgba(46, 196, 182, 0.10);
+border-radius: 5px;
+color: black;
+}
+
+.activeinput::placeholder{
+font-size: 14px;
+color: black;
+font-weight: 600;
+}
+
+
+.iconed{
+position: absolute;
+  margin-right: 15px; 
+}
+
+.withicon{
+display: flex;
+width: 100%;
+justify-content: end;
+align-items: center;
+}
+
+
+.input {
+display: flex;
+gap: 24px;
+margin-bottom: 30px;
+align-items: center;
+justify-content: center;
+}
+
+.inputed h2{
+font-size: 14px;
+}
+
+.button{
+    padding: 18px;
+    font-weight: 550;
+    color:#fff; font-size: 16px; text-align: center; 
+    background-color: #2EC4B6;
+    margin-bottom: 30px;
+}
+
+.termsofuse{text-align:center}
+
+/*------This is end of input field-------*/
+}
+
+
+/*---------MAX 600PX------------*/
+@media only screen and (max-width:600px)
+{
+/*------This is main container-------*/
+body{
+    padding:45px 25px 45px 25px; 
+    background-color: #F7FDFC;
+}
+a {
+    text-decoration: underline;
+    color:#2EC4B6
+}
+a:hover {
+    font-weight:600
+}
+.maincon {
+   
+    
+}
+
+/*------This is the end of main container-------*/
+
+/*------This is individual section-------*/
+.individual{
+    
+    
+    font-family: 'Sofia Pro'; 
+    font-size: 16px; 
+    line-height: 25px;
+    width: 100%;
+    margin-bottom: 45px;
+}
+.individual h1 {
+    font-size: 30px;}
+
+.individual p{ color:#737373;}
+
+.individual img{
+    width:38.67px; height: 40px;
+}
+
+/*------This is end of individual section-------*/
+
+
+/*------This is input field-------*/
+.inputed {
+    flex:1;
+    
+   
+    
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
+    padding:40px;
+    height: auto;
+    font-family: 'Sofia Pro' ; font-size: 14px;
+
+}
+
+
+
+      
+.inputfield{
+    padding: 15px; height: 18px; width: 100%; 
+    border:1px solid #F0F0F0;
+    border-radius: 5px;
+    font-weight: 300;
+    
+
+}
+
+label{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px; font-weight: 600;
+}
+
+
+
+
+.inputfield::placeholder{
+    color: #737373;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.vertical{
+    margin-bottom: 24px;
+display: flex;
+flex:1;
+flex-direction: column;
+align-items: center;
+
+}
+
+
+
+.activeinput{
+
+width: 100%;
+height: 18px;
+padding: 15px;
+border:1px solid #2EC4B6;
+box-shadow: 0px 0px 0px 1px rgba(46, 196, 182, 0.10);
+border-radius: 5px;
+color: black;
+}
+
+.activeinput::placeholder{
+font-size: 14px;
+color: black;
+font-weight: 600;
+}
+
+
+.iconed{
+position: absolute;
+  margin-right: 15px; 
+}
+
+.withicon{
+display: flex;
+width: 100%;
+justify-content: end;
+align-items: center;
+}
+
+
+.input {
+margin-bottom: 24px;
+}
+
+.inputed h2{
+font-size: 14px;
+}
+
+.button{
+    padding: 18px;
+    font-weight: 550;
+    color:#fff; font-size: 16px; text-align: center; 
+    background-color: #2EC4B6;
+    margin-bottom: 30px;
+}
+
+.termsofuse{text-align:center}
+
+/*------This is end of input field-------*/
+}
